@@ -10,7 +10,7 @@
 #include <stdbool.h>
 #include <stdint.h>
 #include <stdio.h>
-#include <stdint.h>
+#include <unistd.h>
 
 #ifndef NDEBUG
 #define DEBUG_PRINT(fmt, args...) printf(fmt, ##args)
